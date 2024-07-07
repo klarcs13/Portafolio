@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Proyectos</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style></style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Portafolio de Klardy Cruz</h1>
+        <img src="https://picsum.photos/200/300" alt="Foto de Perfil">
+        <nav>
+            <ul>
+                <li><a href="#sobremi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Mis Proyectos</a></li>
+                <li><a href="#contactame">Contáctame</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobremi">
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy Klardy Cruz, estudiante de Ingeniería en Sistemas, apasionada por la tecnología y el desarrollo
+                de software. Me gusta aprender constantemente y enfrentar nuevos desafíos.</p>
+            <p>Tengo experiencia un poco de experiencia en programación y diseño gráfico, y estoy siempre buscando
+                mejorar mis habilidades.</p>
+            <br>
+
+            <hr>
+            <section>
+                <h3>Educación</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Grado</th>
+                            <th>Institución</th>
+                            <th>Título</th>
+                            <th>Año</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Primaria</td>
+                            <td>C.E.B José Cecilio del Valle</td>
+                            <td>Primaria</td>
+                            <td>2014</td>
+                        </tr>
+                        <tr>
+                            <td>Secundaria</td>
+                            <td>Instituto Santa María Goretti</td>
+                            <td>BTP Informática</td>
+                            <td>2020</td>
+                        </tr>
+                        <tr>
+                            <td>Universidad</td>
+                            <td>Universidad Católica de Honduras</td>
+                            <td>Ingeniería en Sistemas</td>
+                            <td>2024</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+
+                        <tr>
+                            <td colspan="4">Durante mi educación secundaria, tuve la oportunidad de estudiar
+                                informática, lo que despertó mi interés en el mundo de la tecnología y el desarrollo de
+                                software. Aprendí conceptos básicos de programación, gestión de bases de datos y
+                                creación de páginas web, lo cual me permitió desarrollar un enfoque lógico y
+                                estructurado para resolver problemas. Esta experiencia fue fundamental para darme cuenta
+                                de mi pasión por la informática y me motivó a continuar mis estudios en el campo de la
+                                Ingeniería en Sistemas, con el objetivo de profundizar mis conocimientos y habilidades
+                                en este apasionante ámbito.</td>
+                        </tr>
+
+
+                    </tfoot>
+                </table>
+            </section>
+        </section>
+        <section id="proyectos">
+            <h2>Proyectos Realizados</h2>
+            <section>
+                <h3>Fotografía</h3>
+                <section>
+                    <div class="card">
+                        <img src="https://picsum.photos/id/237/500/200" alt="Imagen del Proyecto">
+                        <h4>Proyecto 1</h4>
+                        <p>Aquí se puede ver la imagen de un perrito, foto tomada para un hogar de perros en refugio</p>
+                    </div>
+                </section>
+            </section>
+            <section>
+                <h3>Edición</h3>
+                <section>
+                    <div class="card">
+                        <img src="https://picsum.photos/seed/picsum/500/200" alt="Imagen del Proyecto">
+                        <h4>Proyecto 2</h4>
+                        <p>Fotografía editada para Discovery Channel</p>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <section id="contactame">
+            <h2>Contáctame</h2>
+            <section>
+                <form action="index.html" method="post">
+                    <label for="nombre">Nombre:
+                        <input type="text" name="nombre" id="nombre" required autocapitalize="on"
+                            placeholder="Nombre completo">
+                    </label>
+                    <label for="correo">Correo:
+                        <input type="email" name="correo" id="correo" required autocapitalize="off">
+                    </label>
+                    <label for="birthdate">Fecha de Nacimiento:
+                        <input type="date" name="birthdate" id="birthdate" required autocomplete="on">
+                    </label>
+                    <label for="mensaje">Mensaje:
+                        <textarea name="mensaje" id="mensaje" required></textarea>
+                    </label>
+                    <label for="color">Color Favorito:
+                        <input type="color" name="color" id="color" required>
+                    </label>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </section>
+    </main>
+    <aside>
+
+        <section>
+            <h2>Más de mi trabajo en fotografía y edición...</h2>
+        </section>
+
+        <section>
+            <div class="advertising">
+                <img src="https://picsum.photos/500/300?grayscale" alt="Publicidad">
+            </div>
+            <div class="advertising">
+                <img src="https://picsum.photos/500/300.jpg" alt="Publicidad">
+            </div>
+            <div class="advertising">
+                <img src="https://picsum.photos/500/300/?blur=2" alt="Publicidad">
+            </div>
+        </section>
+    </aside>
+    <footer>
+        <section>
+            <p>Klardy Cruz &copy; 2024</p>
+        </section>
+
+        <h3>Si quieres ver más sobre mi trabajo, ve a mis redes sociales</h3>
+
+        <section>
+            <ol>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">X (late Twitter)</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Discord</a></li>
+                <li><a href="#">Slack</a></li>
+            </ol>
+        </section>
+    </footer>
+</body>
+
+</html>
